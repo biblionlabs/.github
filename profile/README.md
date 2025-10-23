@@ -35,19 +35,6 @@ indexable, relacionable, traducible, auditable y abierto.
 - 🪶 **UI y visualización con Slint**  
   Aplicaciones gráficas multiplataforma para explorar y estudiar los textos bíblicos.
 
-## ⚖️ Licencias
-
-El ecosistema usa una **combinación de licencias abiertas** para balancear colaboración y protección de la libertad del software:
-
-| Componente | Licencia | Propósito |
-|-------------|-----------|------------|
-| Core libraries (`common`, `db`) | [MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/) | Permite uso mixto (open / closed source) manteniendo apertura en los archivos modificados. |
-| Servicios (`setup`, `provider`, `translate`) | [AGPL v3](https://www.gnu.org/licenses/agpl-3.0.html) | Garantiza que todo servicio derivado siga siendo libre, incluso si se ejecuta en la nube. |
-| Interfaz gráfica (UI / Slint) | [GPL v3](https://www.gnu.org/licenses/gpl-3.0.html) | Requerido por Slint, asegura reciprocidad total para las herramientas visuales. |
-
-> **Nota:** Todo código y contribución dentro de `biblionlabs` se publica bajo las mismas licencias.  
-> Cualquier uso o redistribución debe cumplir con los términos correspondientes.
-
 ## 🌱 Filosofía
 
 **biblionlabs** cree en el estudio libre, la preservación textual y la reproducibilidad.  
